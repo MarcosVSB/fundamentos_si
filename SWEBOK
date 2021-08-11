@@ -1,0 +1,127 @@
+Enunciado da atividade:	
+
+A Engenharia de Software é a disciplina do conhecimento humano destinada à construção de software e tem como objetivo definir e exercitar processos, métodos, ferramentas e ambientes.
+Nesse contexto, é importante, a todo profissional da computação, conhecer o SWEBOK (que apresenta as áreas de conhecimento envolvidas nessa disciplina).
+Com base nesses conceitos e em todos os materiais estudados até aqui, faça agora uma pesquisa sobre esse guia de uso e práticas da Engenharia de Software, desenvolvendo essa atividade em duas etapas.
+Etapa 1
+Nesta primeira etapa você deverá responder às seguintes questões:
+1.	O que significa SWEBOK, quando foi criado e com que objetivos?
+•	O guia Software Engineering Body of Knowledge (Guia de Conhecimento em Engenharia de Software), conhecido pela sigla SWEBOK, é um documento criado sob o patrocínio da IEEE com a finalidade de servir de referência em assuntos considerados, de forma generalizada pela comunidade, como pertinentes a área de Engenharia de Software. Foi iniciado em 1998 pelo Software Engineering Coordinating Committee (SWECC) com objetivo de ajudar organizações a terem uma visão consistente da Engenharia de Software promovendo uma visão consistente da engenharia de software no mundo, clareando e marcando as fronteiras entre a engenharia de software e as outras disciplinas relacionadas, caracterizando o conteúdo da disciplina de engenharia de software, classificando em tópicos a área de conhecimento da engenharia de software (programas), e promovendo uma fundação para o desenvolvimento do currículo, para certificação individual e para licenciamento de material
+
+2.	Quais são as áreas de conhecimento do SWEBOK e qual é o propósito de uma cada delas?
+1 Requisitos de Software
+Os requisitos expressam a necessidade e restrições colocadas sobre o produto de software que contribuem para a solução de algum problema do mundo real. Esta área envolve elicitação, análise, especificação e validação dos requisitos de software (SWEBOK, 2004).
+Segundo Breitman e Sayão (2005), os requisitos de software são classificados em:
+· Requisitos funcionais: correspondem a funcionalidade do software e o que o sistema deve fazer;
+· Requisitos não funcionais: expressam restrições e características que o software deve atender ou ter;
+· Requisitos inversos: definem estados e situações que nunca podem acontecer.
+Pressman (2002) cita que “se você não analisa, é altamente provável que construa uma solução de software muito elegante que resolve o problema errado”. Esta
+atitude pode resultar em perda de tempo e dinheiro, pessoas frustradas e clientes insatisfeitos.
+
+2 Design de Software
+Segundo o SWEBOK (2004), esta área envolve definição da arquitetura, componentes, interfaces e outras características de um sistema ou componente. Visualizado como um processo, esta área é uma etapa do ciclo de vida da Engenharia de Software, onde os requisitos são analisados para produzir uma descrição da arquitetura do software. Para Pressman (2002), design de software "é um processo iterativo através do qual os requisitos são traduzidos num documento para construção do software."
+
+3 Construção de Software
+Refere-se a implementação do software, verificação, testes de unidade, testes de integração e debugging. Esta área está envolvida com todas as áreas de conhecimento, porém, está fortemente ligada às áreas de Design e Teste de Software, pois o processo de construção abrange significativamente estas duas áreas (SWEBOK, 2004). As áreas correlatas à construção de software, segundo o SWEBOK (2004) são:
+
+· Fundamentos: minimizar a complexidade, antecipar mudanças, construir para verificar e padrões de construção;
+· Gerenciamento da construção: modelos, planejamento e métricas;
+· Considerações práticas: design, linguagens, codificação, testes, reutilização, qualidade e integração.
+
+É importante que as funcionalidades do software sejam testadas durante todo o processo de desenvolvimento, não deixando apenas para a etapa de testes.
+
+4 Teste de Software 
+Teste de software é uma atividade executada para avaliar a qualidade do produto, buscando identificar os defeitos e problemas existentes (SWEBOK, 2004).
+Para Pressman (2002), "teste de software é um elemento crítico da garantia de qualidade de software e representa a revisão final da especificação, projeto e geração de código."
+Segundo Coelho (2005) os tipos de teste são:
+· Teste funcional: verifica as regras de negócio, condições válidas e inválidas;
+· Teste de recuperação de falhas: as falhas são provocadas diversas vezes a fim de verificar a eficiência da recuperação;
+· Teste de desempenho: verifica o tempo de resposta e processamento para configurações diferentes;
+· Teste de segurança e controle de acesso: verifica a funcionalidade dos mecanismos de proteção de acesso e de dados;
+· Teste de interfaces com o usuário: verifica navegação, consistência e padrões;
+· Teste de volume: verifica até aonde o software suporta.
+A etapa de teste de software é relevante para que os erros possam ser encontrados e corrigidos antes que o software seja entregue ao cliente.
+
+5 Manutenção de Software
+Esta área de conhecimento é definida como a totalidade das atividades requeridas para fornecer suporte custo-efetivo a um sistema de software, que pode ocorrer antes ou depois da entrega. Antes da entrega do software são realizadas atividades de planejamento e depois, modificações são feitas com o objetivo de corrigir falhas, melhorar o desempenho ou adaptá-las a um ambiente externo (SWEBOK, 2004). Os tipos de modificações durante a fase de manutenção, segundo Pressman (2002) são:
+· Manutenção corretiva: modifica o software para corrigir erros;
+· Manutenção adaptativa: altera o software para acomodar mudanças no seu ambiente externo;
+· Manutenção perfectiva: aprimora o software (solicitações do cliente);
+· Manutenção preventiva (reengenharia): modifica o software a fim de torná-los mais fáceis de serem corrigidos, adaptados e melhorados.
+
+Em torno de 60% do esforço despendido por uma organização de desenvolvimento é referente à manutenção de software. Este percentual continua
+crescendo à medida que mais softwares são produzidos. Manutenção de software não é só concertar erros. Apenas 20% do trabalho de manutenção é referente à correção de falhas e, os outros 80% refere-se à adaptações ao ambiente externo e a melhorias solicitadas pelos usuários (PRESSMAN, 2002).
+
+6 Gerenciamento de Configuração de Software
+Conforme Cunha et al (2004), o GCS (Gerenciamento de Configuração de Software) é um processo que provê recursos para a identificação, controle da evolução e auditagem dos artefatos de software criados durante o desenvolvimento do projeto. De grosso modo, é o controle de versões do software. A finalidade do GCS é estabelecer e manter a integridade dos produtos de software durante todo seu ciclo de vida (SWEBOK, 2004):
+· Identificar a configuração do software em um dado momento;
+· Controlar sistematicamente as mudanças de configuração;
+· Manter a integridade e a rastreabilidade da configuração ao longo do ciclo de vida do software;
+· Controlar a integridade dos artefatos compostos, levando em conta cada um dos componentes do software;
+· Registrar e controlar o estado do processo de alteração.
+
+Porém, sua aplicação em empresas de desenvolvimento de software é complexa, e às vezes inviabilizada pelos gastos. Uma forma de contornar isso é desenvolver uma metodologia de gerenciamento de configuração que leve em conta somente aspectos relevantes para a realidade da empresa, descartando aqueles que são menos utilizados.
+
+7 Gerenciamento de Engenharia de Software
+Segundo SWEBOK (2004), Gerenciamento de Engenharia pode-se definir como a aplicação das atividades de gerenciamento: planejamento, coordenação, medição,
+monitoração, controle e documentação, garantindo que o desenvolvimento e a gerência de software sejam sistemáticos, disciplinados e qualificados.
+O Gerenciamento de Engenharia é tratado sob dois aspectos:
+· Engenharia de Processo: refere-se às atividades empreendidas para geração de políticas, padrões e objetivos organizacionais consistentes;
+· Engenharia de Mensuração: refere-se à atribuição de valores e rótulos às atividades referentes à Engenharia de Software.
+
+O gerenciamento de processo e a mensuração são importantes em todas as área de conhecimento, mas o Gerenciamento de Engenharia trata esses aspectos de forma
+mais direta. Um grande aliado desta área de conhecimento é o Gerenciamento de Projetos, que pode ser visto a seguir.
+
+7.1 Gerenciamento de Projetos de Software
+Projeto é um empreendimento temporário, de elaboração progressiva e com o objetivo de criar um produto ou serviço único (PMBOK, 2004).
+· Temporário: o projeto possui início e fim bem definidos e pode ser de curta ou longa duração. O projeto chega ao fim quando os seus objetivos são atingidos;
+· Elaboração progressiva: o desenvolvimento ocorre em etapas e continua por incrementos;
+· Produto ou serviço único: cada projeto é exclusivo.
+
+Segundo o PMBOK (2004), o gerenciamento de projetos "é a aplicação de conhecimento, habilidades, ferramentas e técnicas às atividades do projeto a fim de
+atender aos seus requisitos". É realizado através de cinco grupos de processos: iniciação, planejamento, execução, monitoramento e controle, e encerramento.
+Para Pressman (2002), “a gestão do projeto envolve o planejamento, a monitoração e controle do pessoal, processo e eventos que ocorrem à medida que o
+software evolui de um conceito preliminar para uma implementação operacional". O gerenciamento de projetos auxilia as organizações a atenderem as
+necessidades de seus clientes, padronizando tarefas do dia a dia e reduzindo o número de tarefas, que muitas vezes são esquecidas (PMI-SC, 2006).
+Por fim, gerenciar projetos é manter o equilíbrio entre escopo, qualidade, custos, recursos e tempo (PMBOK, 2004). É papel do gerente de projetos avaliar os riscos e impactos associados a qualquer mudança em um desses fatores.
+
+8 Engenharia de Processo de Software
+A Engenharia de Processo pode ser interpretada como uma visão geral sobre questões relacionadas ao processo de Engenharia de Software, principalmente as atividades relacionadas à definição, implementação, avaliação, mensuração, gerenciamento, mudanças e melhorias do processo de ciclo de vida de software (SWEBOK, 2004). O objetivo da Engenharia de Processo de Software é implementar processos novos e melhores, seja no escopo individual, de projeto ou organizacional. 
+
+9 Ferramentas e Métodos de Software
+Ferramentas de desenvolvimento de software são ferramentas criadas para auxiliar no ciclo de vida do software. Essas ferramentas normalmente automatizam algumas atividades do processo de desenvolvimento, fazendo com que o analista concentre-se nas atividades que exigem maior trabalho intelectual (SWEBOK, 2004). Métodos de Engenharia de Software impõe estrutura sobre a atividade de desenvolvimento e manutenção de software com o objetivo de torná-la sistemática e mais propensa ao sucesso (SWEBOK, 2004). Esta área de conhecimento tem como objetivo pesquisar ferramentas e métodos que aumentem a produtividade dos desenvolvedores enquanto reduzem a ocorrência de falhas no desenvolvimento (FERNANDES, 2003).
+
+10 Qualidade de Software
+A qualidade de software não pode ser entendida como perfeição. Qualidade é um conceito multidimensional, realizado por um conjunto de atributos, representando vários aspectos relacionados ao produto: desenvolvimento, manutenção e uso. Qualidade é algo factível, relativo, dinâmico e evolutivo, adequando-se ao nível dos objetivos a serem atingidos (SIMÃO, 2002). Um dos principais objetivos da Engenharia de Software é melhorar a qualidade
+dos produtos de software, ela visa estabelecer métodos e tecnologias para construir produtos de software de qualidade dentro dos limites de tempo e recursos disponíveis. A qualidade de software está diretamente ligada com a qualidade do processo através do qual o software é desenvolvido, portanto, para se ter qualidade em um produto de software é necessário ter um processo de desenvolvimento bem definido, que deve ser documentado e acompanhado (SWEBOK, 2004).
+A avaliação da qualidade de produtos de software normalmente é feita através de modelos de avaliação de qualidade. Esses modelos descrevem e organizam as
+propriedades de qualidade do produto em avaliação. Os modelos de avaliação mais aceitos e usados no mercado são:
+· CMMI (Capability Maturity Model Integration), proposto pelo CMM (Capability Maturity Model);
+· Norma ISO/IEC 9126, proposta pela ISO (International Organization for Standardization).
+
+Etapa 2
+Nessa segunda etapa, leia a contextualização e, na sequência, realize a atividade.
+Antes de desenvolver a etapa 2, pense que na construção de um software, a escolha do modelo de ciclo de vida é o que definirá como o software será desenvolvido, lançado, aprimorado, suportado e finalizado. Pensamos que será a primeira escolha a ser feita no processo de software.
+A partir desta escolha será definida a maneira mais adequada de obter as necessidades do cliente, até quando e como o cliente receberá sua primeira versão “operacional” do sistema.
+No desenvolvimento de software, portanto, não existe um modelo de ciclo de vida ideal. O processo de escolha dependerá do perfil e complexidade do negócio do cliente! Tempo para execução, orçamento, equipe necessária para execução e o ambiente operacional são fatores que influenciarão diretamente na escolha do ciclo de vida de software a ser adotado.
+É muito comum utilizarmos mais de um ciclo de vida no projeto e, na maioria dos casos, vê-se a presença de mais de um ciclo de vida no processo.
+Os ciclos de vida se comportam de maneira sequencial (fases seguem determinada ordem) e/ou incremental (divisão de escopo) e/ou iterativa (retroalimentação de fases) e/ou evolutiva (software é aprimorado).
+
+Atividade
+Pensamos que o SWEBOK além de tratar da qualidade do software, também resgata a gestão de construção de um software. Neste sentido, pense num modelo de ciclo de vida mais interativo que o modelo em cascata e cite dois exemplos de modelos de ciclo de vida, trazendo suas vantagens, desvantagens e principais atividades.
+
+
+Resposta:
+Modelo Espiral: O modelo espiral é usado com mais frequência em grandes projetos. Para pequenos projetos, os conceitos de desenvolvimento de software ágil torna-se uma alternativa mais viável. O Exército dos Estados Unidos tem adotado o modelo em espiral para seus programas dos Sistemas de combate do futuro.
+Vantagens: As iterações iniciais do projeto são as mais baratas, permitindo que as tarefas de maior risco sejam levadas com o mínimo de custos.
+Cada iteração da espiral pode ser customizada para as necessidades específicas de cada projeto.
+
+Desvantagens: É complexo e requer atenção e conhecimento especiais para o levar a cabo
+
+Modelo Protótipo: Na Engenharia de Software, protótipo é um sistema/modelo (um website ou outro software) sem funcionalidades inteligentes (acesso a banco de dados, por exemplo), podendo conter apenas funcionalidades gráficas. Utilizado para fins de ilustração e melhor entendimento, geralmente em reuniões entre a equipe de Análise de Sistemas e o contratante.
+Vantagens: Os usuários conseguem ver constantemente os progressos.
+É útil quando os requisitos mudam rapidamente e o cliente está relutante em aceitar um conjunto fixo de requisitos.
+
+Desvantagens: É impossível determinar com exatidão o tempo que o projeto vai demorar.
+Não há forma de saber o número de iterações que serão necessárias.
+
